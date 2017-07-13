@@ -93,7 +93,7 @@ export var InnerSlider = createReactClass({
       this.update(nextProps);
       this.changeSlide({
           message: 'index',
-          index: nextProps.children.length - nextProps.slidesToShow,
+          index: nextProps.children.length - 1,
           currentSlide: this.state.currentSlide
       });
     } else {
